@@ -1,0 +1,10 @@
+Menu Glops: 
+Police = monotype corsiva
+text-color = #d5802b
+background-color = #1a1626
+h1-size = 59px
+h2,h3-size = 16px
+address-size = 17px
+col-size = 11px
+price-size = 12px
+product-size = 15px

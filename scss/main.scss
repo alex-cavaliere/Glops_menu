@@ -1,0 +1,81 @@
+@import "./variables_overrides";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$colore-testo: #d5802b;
+$colore-sfondo: #1a1626;
+$colore-classe: #ff8000;
+
+
+@font-face {
+    font-family: "monotype-corsiva";
+    src: url(../monotype-corsiva-maisfontes.7be8/monotype-corsiva.ttf)format("truetype");
+}
+
+body
+{
+    font-family: 'monotype-corsiva','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: $colore-sfondo;
+    color: $colore-testo;
+}
+header, .price
+{
+    color: rgba(245, 245, 245, 0.897);
+}
+h1
+{
+    text-decoration: underline;
+    color: $colore-testo;
+    font-size: 59px;
+}
+h2
+{
+    margin-top: -10px;
+    font-size: 20px;
+}
+#pablito
+{
+    width: 100%;
+    height: 180px;
+    object-fit: fill;
+    filter: brightness(0.6);
+}
+figcaption
+{
+    position: absolute;
+    right: 10%;
+    top: 18%;
+    font-size: 18px;
+}
+#titolo
+{
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+h3
+{
+    color: $colore-classe;
+}
+
+@media screen and(min-width:700px) 
+{
+    .container
+    {
+        width: 700px;
+    }
+}
+.gold
+{
+    font-size: medium;
+}
+.caption
+{
+    margin-top: -15px;
+    margin-bottom: 15px;
+    opacity: 0.5;
+}
+.supplement
+{
+    opacity: 0.5;
+    font-weight: bold;
+}

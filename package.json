@@ -1,0 +1,26 @@
+{
+  "name": "glops",
+  "version": "1.0.0",
+  "description": "menu with QR code",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/main.scss:./css/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "glops"
+  },
+  "keywords": [
+    "glops",
+    "menu",
+    "boissons",
+    "drink",
+    "tapas"
+  ],
+  "author": "Alessandro Cavaliere",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
