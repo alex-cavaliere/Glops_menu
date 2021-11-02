@@ -11144,6 +11144,7 @@ h2, .h2 {
 }
 
 #pablito {
+  position: relative;
   width: 100%;
   height: 180px;
   object-fit: fill;
@@ -11152,8 +11153,8 @@ h2, .h2 {
 
 figcaption {
   position: absolute;
-  right: 10%;
   top: 23%;
+  right: 10%;
   font-size: 18px;
 }
 
