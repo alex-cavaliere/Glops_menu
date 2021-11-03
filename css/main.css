@@ -11156,7 +11156,7 @@ h2, .h2 {
 
 figcaption {
   position: absolute;
-  top: 17%;
+  margin-top: -30px;
   right: 10%;
   font-size: 20px;
 }
@@ -11191,10 +11191,6 @@ h4, .h4 {
 @media screen and (min-width: 700px) {
   .container {
     width: 700px;
-  }
-
-  figcaption {
-    margin-top: 2%;
   }
 }
 
