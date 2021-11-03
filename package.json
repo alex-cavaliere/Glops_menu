@@ -21,6 +21,7 @@
   "author": "Alessandro Cavaliere",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
   }
 }

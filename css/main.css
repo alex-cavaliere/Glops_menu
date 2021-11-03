@@ -11123,9 +11123,13 @@ textarea.form-control-lg {
   src: url(../monotype-corsiva-maisfontes.7be8/monotype-corsiva.ttf) format("truetype");
 }
 body {
-  font-family: "monotype-corsiva", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   background-color: #1a1626;
   color: #d5802b;
+}
+
+header {
+  font-family: "monotype-corsiva", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 header, .price {
@@ -11140,22 +11144,21 @@ h1, .h1 {
 
 h2, .h2 {
   margin-top: -10px;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 #pablito {
-  position: relative;
   width: 100%;
   height: 180px;
   object-fit: fill;
-  filter: brightness(0.6);
+  filter: brightness(0.9);
 }
 
 figcaption {
   position: absolute;
-  top: 23%;
+  top: 17%;
   right: 10%;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #titolo {
@@ -11165,16 +11168,13 @@ figcaption {
 }
 
 h3, .h3 {
-  color: #ff8000;
+  font-weight: bold;
+  background-color: #d5802b;
+  color: #1a1626;
 }
 
-@media screen and (min-width: 700px) {
-  .container {
-    width: 700px;
-  }
-}
-.gold {
-  font-size: medium;
+h4, .h4 {
+  text-decoration: underline;
 }
 
 .caption {
@@ -11186,6 +11186,16 @@ h3, .h3 {
 .supplement {
   opacity: 0.5;
   font-weight: bold;
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    width: 700px;
+  }
+
+  figcaption {
+    margin-top: -4%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

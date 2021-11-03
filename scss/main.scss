@@ -13,9 +13,13 @@ $colore-classe: #ff8000;
 
 body
 {
-    font-family: 'monotype-corsiva','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     background-color: $colore-sfondo;
     color: $colore-testo;
+}
+header
+{
+    font-family: 'monotype-corsiva','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header, .price
 {
@@ -30,22 +34,21 @@ h1
 h2
 {
     margin-top: -10px;
-    font-size: 20px;
+    font-size: 22px;
 }
 #pablito
 {
-    position: relative;
     width: 100%;
     height: 180px;
     object-fit: fill;
-    filter: brightness(0.6);
+    filter: brightness(0.9);
 }
 figcaption
 {
     position: absolute;
-    top: 23%;
+    top: 17%;
     right: 10%;
-    font-size: 18px;
+    font-size: 20px;
 }
 #titolo
 {
@@ -55,19 +58,13 @@ figcaption
 }
 h3
 {
-    color: $colore-classe;
+    font-weight: bold;
+    background-color: $colore-testo;
+    color: $colore-sfondo;
 }
-
-@media screen and(min-width:700px) 
+h4
 {
-    .container
-    {
-        width: 700px;
-    }
-}
-.gold
-{
-    font-size: medium;
+    text-decoration: underline;
 }
 .caption
 {
@@ -79,4 +76,16 @@ h3
 {
     opacity: 0.5;
     font-weight: bold;
+}
+
+@media screen and(min-width:700px) 
+{
+    .container
+    {
+        width: 700px;
+    }
+    figcaption
+    {
+        margin-top: -4%;
+    }
 }
